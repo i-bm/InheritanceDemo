@@ -2,6 +2,8 @@ import java.time.LocalDate;
 
 public class Accountant extends Person{
 
+//    public Accountant(){};
+
     public Accountant(String name, LocalDate dateOfBirth, Company company) {
         super(name, dateOfBirth, company);
     }
@@ -21,7 +23,7 @@ public class Accountant extends Person{
         super.walk();
     }
 
-    public void doAccountingStuff(){
-        System.out.println("Doing accounting stuff.");
+        void doAccountingStuff(){
+        System.out.println(super.getName()+ " is doing accounting stuff.");
     }
 }

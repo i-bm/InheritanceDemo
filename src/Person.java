@@ -11,6 +11,8 @@ public class Person {
         this.company = company;
     }
 
+    public Person(){}
+
     public String getName() {
         return name;
     }
@@ -48,7 +50,7 @@ public class Person {
         System.out.println(getName() + " is Leaning....");
     }
     public void eat(){
-        System.out.println(getName() + "is Eating....");
+        System.out.println(getName() + " is Eating....");
     }
     public void walk(){
         System.out.println(getName() + " is walking...");

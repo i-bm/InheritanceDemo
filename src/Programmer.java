@@ -5,6 +5,7 @@ public class Programmer extends Person{
         super(name, dateOfBirth, company);
     }
 
+    public Programmer(){}
     @Override
     public void walk() {
         super.walk();
@@ -12,7 +13,8 @@ public class Programmer extends Person{
 
     @Override
     public void learn() {
-        super.learn();
+//        super.learn();
+        System.out.println("I'm leaning JAVA.");
     }
 
     @Override
